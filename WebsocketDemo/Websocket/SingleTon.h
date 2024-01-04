@@ -1,6 +1,3 @@
-/*
-	单例类
-*/
 #pragma once
 #include <map>
 #include <string>

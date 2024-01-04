@@ -1,6 +1,6 @@
 #pragma once
 #include "singleton.h"
-#include <windows.h>
+//#include <windows.h>
 
 class WebSocketThreadBase
 {

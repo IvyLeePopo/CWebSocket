@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include "stdafx.h"
 #include <WinSock2.h>
 #include "WebSocketBase.h"
 

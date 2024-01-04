@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "TwProtocol.h"
 
 # include "json/autolink.h"
@@ -30,8 +31,8 @@ typedef unsigned long       DWORD;
 typedef int                 BOOL;
 typedef unsigned char       BYTE;
 typedef unsigned short      WORD;
-typedef unsigned __int64 ULONG_PTR, *PULONG_PTR;
-typedef ULONG_PTR DWORD_PTR, *PDWORD_PTR;
+//typedef unsigned __int64 ULONG_PTR, *PULONG_PTR;
+//typedef ULONG_PTR DWORD_PTR, *PDWORD_PTR;
 
 #define MAKEWORD(a, b)      ((WORD)(((BYTE)(((DWORD_PTR)(a)) & 0xff)) | ((WORD)((BYTE)(((DWORD_PTR)(b)) & 0xff))) << 8))
 #define MAKELONG(a, b)      ((LONG)(((WORD)(((DWORD_PTR)(a)) & 0xffff)) | ((DWORD)((WORD)(((DWORD_PTR)(b)) & 0xffff))) << 16))

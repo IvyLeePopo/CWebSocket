@@ -1,6 +1,4 @@
-/*
-	本类主要是封装了websocket的基类，基于libwebsockets开源库 
-*/
+//本类主要是封装了websocket的基类，基于libwebsockets开源库 
 #pragma once
 
 #include <list>
